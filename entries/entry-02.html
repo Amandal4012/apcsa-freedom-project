@@ -1,0 +1,24 @@
+Since my past entry, I have started tinkering with writing code with my tool, Typescript, a Javascript library. I downloaded Node.js, and used npm, which is the node package manager, to download Typescript. I then downloaded Visual Studio Code to help me code in Typescript, and convert it to Javascript so websites can read the code later on. Before I started coding with Typescript, first I had to refresh my knowledge on JavaScript's primitive data and structure types.
+
+I mostly learned from looking at this youtube video: https://www.youtube.com/watch?v=WBPrJSw7yQA. It was helpful in teaching me step by step visually about how to declare variable types, functions, etc. Some takeaways I had, which helped me later on when I wrote code were: 'Let' can be done without initializing and 'const' needs to be initialized with a value. Once assigned, 'const' can never be reassigned. Choose 'const' for a value that does not change, like a book title. Otherwise, do 'let'.
+
+I also was able to write information that could be logged into the console. To illustrate, I wrote:
+'
+let isBeginner: boolean = true;
+let total: number = 0;
+let name: string = 'Amanda';
+let sentence: string = `My name is ${name}
+I am a beginner in Typescript`;
+console.log(sentence);
+'
+Furthermore, I wrote a command which clearly showed me how Typescript and Javascript are linked together. I wrote 'tsc app' (my file was 'app.ts'), which converted my Typescript file into a Javascript file. As stated before, translating Typescript into Javascript is so it can be understood by websites, so I made sure to use this command after ctrl+s (saving) my code, so it would appear on my Another thing I learned was that doing 'tsc app --watch' helped look for errors in my file. Then, I saw my code ran on my local host on Chrome.
+
+I learned 'null' and 'undefined' are subtypes of the other types, and can be assigned to the Boolean, number or string type. Then, I made arrays. I also made tuples, which are a string and a number combined in an array like format.
+
+Another cool feature I learned to utilize was ask for and then use user input. From (https://stackoverflow.com/questions/33858763/console-input-in-typescript) I imported the code that allowed me to use the readline node module. It resembled what I knew from Java, although the vocabulary was entirely different, so I had no trouble running and understanding it. I changed the text to ask if the user needed a productivity tool. Although I might not use this feature in my project, I definitely can make use of user input with this module.
+
+Skills I refined through this stretch of time/period
+learning on your own
+logical thinking- fixed issue with my terminal which said running scripts was disabled on my system. I went to stack overflow (googling) and it said to run Windows Powershell ISE as administrator and paste  'Set-ExecutionPolicy -ExecutionPolicy Unrestricted' (https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system)
+how to read documentation and what code means to write on my own
+I would say I am in the stage of the engineering design process. my next steps are to figure out how to display my results on a real website if im to show my results and program publicly
