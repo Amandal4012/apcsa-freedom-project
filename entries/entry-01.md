@@ -1,6 +1,6 @@
 
 
-### > The Freedom Project is the idea that you can code anything you want, for the purpose of a program that seeks to bring something new or helpful in your eyes.
+###  The Freedom Project is the idea that you can code anything you want, for the purpose of a program that seeks to bring something new or helpful in your eyes.
 
 
 > *In this blog, I am writing about the steps I took towards finding my tool to use in creating a project based on the Freedom Project.*
@@ -21,7 +21,7 @@ As of now, I have a few ideas that I want to pursue, but I have not yet come to 
 * Reminders to take care of your health while working
 * To-do list, but a unique one:
 
-> I came across something called the <strong>Eisenhower Matrix</strong> while searching for productivity tool ideas, 
+> * I came across something called the <strong>Eisenhower Matrix</strong> while searching for productivity tool ideas, 
 and I clicked on todoist's blog.The Eisenhower Matrix is a group of 4 boxes, one labeled 'Do It', another, 
 'Schedule It', 'Delegate It', and 'Delete It'. This helps you break down tasks into clear hierarchies of importance, 
 so those tasks are not stuck bouncing around in your head, and you can be more intentional with how you work.
@@ -36,7 +36,7 @@ so those tasks are not stuck bouncing around in your head, and you can be more i
  will be beneficial in efficiently creating a study/ work extension. I also want to use it in combination with Node.js.
  
  
-### **Other tools I considered:**
+#### **Other tools I considered:**
 
 * Mocha, Chai, Hygen, Vue (very convenient), Hotkeys (keyboard input)
 * Firebase and Swift (for making apps)
@@ -74,7 +74,7 @@ I would consider myself to be in the **brainstorm possible solutions** stage in 
 
 I've thought of many, but I have not been able to decisively answer which one is *the one.* In addition, I looked into a tool that can suit most of these ideas, and in the process set up my blog for my first entry using a guide for help.
 
-**Some skills I developed in this step were:**
+### **Some skills I developed in this step were:**
 
 * **How to Google-** Searching for the example projects of tools I was interested in, and more about how to create a chrome extension for my ideas. 
 * **How to Read-** Reading through documentation, which is how I decided what tool was right for me. 
