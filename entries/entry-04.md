@@ -2,12 +2,15 @@
 **In this blog**, I developed a better understanding of how to pick out HTML elements and apply dynamic interactivity to them with JS. The progress I have made compared to the last blog is visual, making it look a little more cohesive, and functional as well.
 
 So far, I have added a delete button. The issue is that the delete button is not accurate, a problem I faced when first implementing my code. My code first collects the index of the current row the delete button is pressed in with `var i = x.rowIndex;`. Then, it locates the row from my tasks table with and the given index to delete it with `document.getElementById("myTasks").deleteRow(i);`. The delete button has the `onclick=”delRow(this)”`, `this` referring to the element getting this action done to it. When you click the trash icon, it only deletes the row on the very top. I tried to fix it by increasing `var i` by adding 1 or 2 if maybe the located `index` needed to surpass 0, but neither way worked, so I left it at that for now.
+![Study Meep](/images/studyMeep.png)
 
-```svg:hover {
+```
+svg:hover {
   fill: red;
 }
 ```
 Plus, I was able to create a CSS class to target the trash can `svg` icon (a small image) so when the mouse hovers over it, it turns red and indicates the row can be deleted.
+![Trash can Delete icon](/images/trashcan.png)
 
 I did not change much about the add new task button, but it looks different from the previous version. Something I figured would be useful to add were editable fields in the cells. To make it, each table row in the HTML file had to say `<td contenteditable='true'></td>`. The table data (`td`) is enclosed in a table row (`tr`), then a `table` tag.
 
