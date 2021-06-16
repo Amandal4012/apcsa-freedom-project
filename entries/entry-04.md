@@ -2,6 +2,7 @@
 **In this blog**, I developed a better understanding of how to pick out HTML elements and apply dynamic interactivity to them with JS. The progress I have made compared to the last blog is visual, making it look a little more cohesive, and functional as well.
 
 So far, I have added a delete button. The issue is that the delete button is not accurate, a problem I faced when first implementing my code. My code first collects the index of the current row the delete button is pressed in with `var i = x.rowIndex;`. Then, it locates the row from my tasks table with and the given index to delete it with `document.getElementById("myTasks").deleteRow(i);`. The delete button has the `onclick=”delRow(this)”`, `this` referring to the element getting this action done to it. When you click the trash icon, it only deletes the row on the very top. I tried to fix it by increasing `var i` by adding 1 or 2 if maybe the located `index` needed to surpass 0, but neither way worked, so I left it at that for now.
+<br>
 ![Study Meep](/images/studyMeep.png)
 
 ```
